@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Unsplash Instant</title>
+  <link rel="shortcut icon" type="image/x-icon" href="https://static.unsplash.com/favicon.ico" />
+  <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Content -->
+<div class="sheet sheet--overlay single-photo js-single-photo__container">
+
+  <img src="#" class="single-photo__fake-image js-fake-photo">
+
+  <div class="single-photo__gradient-overlay"></div>
+  <div class="single-photo__overlay"></div>
+
+  <div class="single-photo__image js-fluid-bg-image js-single-photo__image fadeIn"></div>
+
+  <div class="single-photo__header">
+    <div class="single-photo__left-column">
+      <a class="link--no-underline js-user-link js-track-click" href="#" data-track="click-user">
+        <div class="single-photo__user media">
+          <div class="media__body">
+            <h1 class="heading-zeroed">
+              <span class="single-photo__user-subheading">Photo by</span>
+              <span class="single-photo__user-heading text-overflow js-user-name"></span>
+            </h1>
+          </div> <!-- close .__body -->
+        </div> <!-- close .media -->
+      </a>
+    </div> <!-- close .__left-column -->
+
+    <div class="single-photo__center-column">
+      <a href="https://unsplash.com" class="js-track-click" title="Unsplash" data-track="click-logo">
+        <img class="navbar__logo " src="img/core/logo-white.svg" alt="Logo">
+      </a>
+    </div> <!-- close .__center-column -->
+
+    <div class="single-photo__right-column">
+      <a class="btn btn--small btn-icon btn-outline js-download-button js-track-click" href="#" data-track="click-download" download>
+        <span class="btn__text btn__text--show-on-xs icon icon-download"></span>
+        <span class="btn__text btn__text--hide-on-xs">Download</span>
+      </a>
+    </div> <!-- close .__right-column -->
+  </div> <!-- close .__header -->
+
+  <div class="single-photo__footer">
+    <div class="single-photo__footer-left">
+
+      <ul class="nav inline-block">
+        <li class="btn-footer-settings btn btn--small btn-icon btn-outline js-settings-btn">
+          <em class="icon icon-cog"> </em>
+          <span class="line-height-hack js-swap" data-text-swap="Save and Close" data-text-original="Settings"> Settings</span>
+        </li>
+      </ul>
+
+      <ul class="nav inline-block js-settings-block">
+        <li class="btn-switch js-btn-switch">
+          <input type="checkbox" id="input-btn-switch-buildings" value="2">
+          <label for="input-btn-switch-buildings" class="btn btn--small btn-icon btn-outline">
+            <em class="icon icon-check"></em> Buildings
+          </label>
+        </li>
+        <li class="btn-switch js-btn-switch">
+          <input type="checkbox" id="input-btn-switch-food" value="3">
+          <label for="input-btn-switch-food" class="btn btn--small btn-icon btn-outline">
+            <em class="icon icon-check"></em> Food
+          </label>
+        </li>
+        <li class="btn-switch js-btn-switch">
+          <input type="checkbox" id="input-btn-switch-nature" value="4">
+          <label for="input-btn-switch-nature" class="btn btn--small btn-icon btn-outline">
+            <em class="icon icon-check"></em> Nature
+          </label>
+        </li>
+        <li class="btn-switch js-btn-switch">
+          <input type="checkbox" id="input-btn-switch-objects" value="8">
+          <label for="input-btn-switch-objects" class="btn btn--small btn-icon btn-outline">
+            <em class="icon icon-check"></em> Objects
+          </label>
+        </li>
+        <li class="btn-switch js-btn-switch">
+          <input type="checkbox" id="input-btn-switch-technology" value="7">
+          <label for="input-btn-switch-technology" class="btn btn--small btn-icon btn-outline">
+            <em class="icon icon-check"></em> Technology
+          </label>
+        </li>
+      </ul>
+    </div>
+    <!-- close .__footer-left -->
+  </div> <!-- close .__footer -->
+
+  <div class="single-photo__footer-right">
+    <ul class="nav">
+      <li>
+        <a href="https://unsplash.com/faq" class="link--no-underline js-single-photo__show-info js-track-click" data-track="click-faq" data-toggle="tooltip" title="FAQ" data-original-title="FAQ">
+          <span class="icon icon-question"></span><span class="eta text-sans text-weight--bold link-to-help">NEED HELP?</span>
+          <span class="sr-only">FAQ</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <!-- close .__footer-right -->
+
+  <div class="single-photo__close-button-container">
+    <a href="#" class="single-photo__close-button heading-secondary link--no-underline js-single-photo__close-button">
+      <span class="gamma icon icon-cross" style="margin-right: -5px;"></span>
+      <span class="eta">Close</span>
+    </a>
+  </div>
+</div>
+
+<!-- JS -->
+<script src="../../js/jquery/jquery.min.js"></script>
+<script src="../../js/helpers.js"></script>
+<script src="override.js"></script>
+
+</body>
+</html>

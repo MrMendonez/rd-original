@@ -1,0 +1,79 @@
+<div class='item-container <perch:content id="filter" type="select" label="Filter"
+options="Demo Reel|reel, Storyboards|storyboards, Tv Spots|tv, Trailers|trailers, Content|content, Broadcast|broadcast, 3D Design|3ddesign, illustrations|illustrations" allowempty="false" required="true" /> <perch:content id="filter2" type="select" label="Filter"
+options="Demo Reel|reel, Storyboards|storyboards, Tv Spots|tv, Trailers|trailers, Content|content, Broadcast|broadcast, 3D Design|3ddesign, illustrations|illustrations" allowempty="true" /> <perch:content id="new_item" type="checkbox" label="Promote Work" value="promoted-item" />'>
+	<a title='<perch:content id="title" type="text" label="Title" required="true" title="true" escape="true" encode="false"/>' alt='<perch:content id="title" type="text" label="Title" required="true" title="true" escape="true" encode="false"/>' data-agency='<perch:content id="agency" type="text" label="Agency" />' data-caption='<perch:content id="caption" type="text" label="Caption" escape="true" encode="false" />' data-city='<perch:content id="city" type="text" label="City" />' data-filter='<perch:content id="filter" type="select" label="Filter"
+options="Demo Reel|reel, Storyboards|storyboards, Tv Spots|tv, Trailers|trailers, Content|content, Broadcast|broadcast, 3D Design|3ddesign, illustrations|illustrations" allowempty="false" required="true" />' href='<perch:content id="main" type="image" label="Main Image" width="715" height="420" crop="true" quality="100" />' rel=''>
+		<img src='<perch:content id="main" type="image" label="Main Image" width="227" height="133" crop="true" quality="100" />' />
+		<p></p>
+	</a>
+	<div class='details'>
+		<div class='client'>
+			<perch:content id="client" type="text" label="Client" />
+		</div>
+		<div class='medium'>
+			<perch:content id="medium" type="text" label="Medium" />
+		</div>
+	</div>
+	<div class='entries'>
+		<perch:if exists="video">
+			<a href='http://player.vimeo.com/video/<perch:content id="video" type="text" label="Vimeo Video ID" />?autoplay=1' rel='shadowbox[<perch:content id="perch_item_index" type="hidden" />]; width=715;height=420;'></a>
+		</perch:if>
+		<perch:if exists="video2">
+			<a href='http://player.vimeo.com/video/<perch:content id="video2" type="text" label="Vimeo Video ID" />?autoplay=1' rel='shadowbox[<perch:content id="perch_item_index" type="hidden" />]; width=715;height=420;'></a>
+		</perch:if>
+		<perch:if exists="video3">
+			<a href='http://player.vimeo.com/video/<perch:content id="video3" type="text" label="Vimeo Video ID" />?autoplay=1' rel='shadowbox[<perch:content id="perch_item_index" type="hidden" />]; width=715;height=420;'></a>
+		</perch:if>
+		<perch:if exists="video3">
+			<a href='http://player.vimeo.com/video/<perch:content id="video4" type="text" label="Vimeo Video ID" />?autoplay=1' rel='shadowbox[<perch:content id="perch_item_index" type="hidden" />]; width=715;height=420;'></a>
+		</perch:if>
+		<perch:if exists="main">
+			<a href='<perch:content id="main" type="image" label="Main Image" width="715" height="420" crop="true" quality="100" />' rel='shadowbox[<perch:content id="perch_item_index" type="hidden" />];width=715;height=420;'></a>
+		</perch:if>
+		<perch:if exists="slide1">
+			<a href='<perch:content id="slide1" type="image" label="Image 1" width="715" height="420" crop="true" quality="100" />' rel='shadowbox[<perch:content id="perch_item_index" type="hidden" />];width=715;height=420;'></a>
+		</perch:if>
+		<perch:if exists="slide2">
+			<a href='<perch:content id="slide2" type="image" label="Image 2" width="715" height="420" crop="true" quality="100" />' rel='shadowbox[<perch:content id="perch_item_index" type="hidden" />];width=715;height=420;'></a>
+		</perch:if>
+		<perch:if exists="slide3">
+			<a href='<perch:content id="slide3" type="image" label="Image 3" width="715" height="420" crop="true" quality="100" />' rel='shadowbox[<perch:content id="perch_item_index" type="hidden" />];width=715;height=420;'></a>
+		</perch:if>
+		<perch:if exists="slide4">
+			<a href='<perch:content id="slide4" type="image" label="Image 4" width="715" height="420" crop="true" quality="100" />' rel='shadowbox[<perch:content id="perch_item_index" type="hidden" />];width=715;height=420;'></a>
+		</perch:if>
+		<perch:if exists="slide5">
+			<a href='<perch:content id="slide5" type="image" label="Image 5" width="715" height="420" crop="true" quality="100" />' rel='shadowbox[<perch:content id="perch_item_index" type="hidden" />];width=715;height=420;'></a>
+		</perch:if>
+		<perch:if exists="slide6">
+			<a href='<perch:content id="slide6" type="image" label="Image 6" width="715" height="420" crop="true" quality="100" />' rel='shadowbox[<perch:content id="perch_item_index" type="hidden" />];width=715;height=420;'></a>
+		</perch:if>
+		<perch:if exists="slide7">
+			<a href='<perch:content id="slide7" type="image" label="Image 7" width="715" height="420" crop="true" quality="100" />' rel='shadowbox[<perch:content id="perch_item_index" type="hidden" />];width=715;height=420;'></a>
+		</perch:if>
+		<perch:if exists="slide8">
+			<a href='<perch:content id="slide8" type="image" label="Image 8" width="715" height="420" crop="true" quality="100" />' rel='shadowbox[<perch:content id="perch_item_index" type="hidden" />];width=715;height=420;'></a>
+		</perch:if>
+		<perch:if exists="slide9">
+			<a href='<perch:content id="slide9" type="image" label="Image 9" width="715" height="420" crop="true" quality="100" />' rel='shadowbox[<perch:content id="perch_item_index" type="hidden" />];width=715;height=420;'></a>
+		</perch:if>
+		<perch:if exists="slide10">
+			<a href='<perch:content id="slide10" type="image" label="Image 10" width="715" height="420" crop="true" quality="100" />' rel='shadowbox[<perch:content id="perch_item_index" type="hidden" />];width=715;height=420;'></a>
+		</perch:if>
+		<perch:if exists="slide11">
+			<a href='<perch:content id="slide11" type="image" label="Image 11" width="715" height="420" crop="true" quality="100" />' rel='shadowbox[<perch:content id="perch_item_index" type="hidden" />];width=715;height=420;'></a>
+		</perch:if>
+		<perch:if exists="slide12">
+			<a href='<perch:content id="slide12" type="image" label="Image 12" width="715" height="420" crop="true" quality="100" />' rel='shadowbox[<perch:content id="perch_item_index" type="hidden" />];width=715;height=420;'></a>
+		</perch:if>
+		<perch:if exists="slide13">
+			<a href='<perch:content id="slide13" type="image" label="Image 13" width="715" height="420" crop="true" quality="100" />' rel='shadowbox[<perch:content id="perch_item_index" type="hidden" />];width=715;height=420;'></a>
+		</perch:if>
+		<perch:if exists="slide14">
+			<a href='<perch:content id="slide14" type="image" label="Image 14" width="715" height="420" crop="true" quality="100" />' rel='shadowbox[<perch:content id="perch_item_index" type="hidden" />];width=715;height=420;'></a>
+		</perch:if>
+		<perch:if exists="slide15">
+			<a href='<perch:content id="slide15" type="image" label="Image 15" width="715" height="420" crop="true" quality="100" />' rel='shadowbox[<perch:content id="perch_item_index" type="hidden" />];width=715;height=420;'></a>
+		</perch:if>
+	</div>
+</div>

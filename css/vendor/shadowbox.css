@@ -1,0 +1,218 @@
+#sb-title-inner,
+#sb-info-inner,
+#sb-loading-inner,
+div.sb-message {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 200;
+    color: #fff
+}
+#sb-container {
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    text-align: left;
+    visibility: hidden;
+    display: none
+}
+#sb-overlay {
+    position: relative;
+    height: 100%;
+    width: 100%
+}
+#sb-wrapper {
+    position: absolute;
+    visibility: hidden;
+    width: 100px;
+    min-width: 727px
+}
+#sb-wrapper-inner {
+    position: relative;
+    border: 1px solid #737373;
+    overflow: hidden;
+    height: 100px;
+    padding: 5px;
+    background: #000
+}
+#sb-body {
+    position: relative;
+    height: 100%
+}
+#sb-body-inner {
+    position: absolute;
+    height: 100%;
+    width: 100%
+}
+#sb-player.html {
+    height: 100%;
+    overflow: auto
+}
+#sb-body img {
+    border: none
+}
+#sb-loading {
+    position: relative;
+    height: 100%
+}
+#sb-loading-inner {
+    position: absolute;
+    font-size: 14px;
+    line-height: 24px;
+    height: 24px;
+    top: 50%;
+    margin-top: -12px;
+    width: 100%;
+    text-align: center;
+    min-height: 420px
+}
+#sb-loading-inner span {
+    background: url(../img/loading.gif) no-repeat;
+    padding-left: 34px;
+    display: inline-block
+}
+#sb-body,
+#sb-loading {
+    background-color: #060606
+}
+#sb-title,
+#sb-info {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    overflow: hidden
+}
+#sb-title,
+#sb-title-inner {
+    height: 26px;
+    line-height: 26px;
+    visibility: hidden
+}
+#sb-title-inner {
+    font-size: 16px
+}
+#sb-info,
+#sb-info-inner {
+    height: 20px;
+    line-height: 20px
+}
+#sb-info-inner {
+    font-size: 12px
+}
+#sb-nav {
+    width: 100%;
+    position: relative;
+    bottom: 280px
+}
+#sb-nav a {
+    display: block;
+    float: right;
+    height: 98px;
+    width: 56px;
+    margin-left: 3px;
+    cursor: pointer
+}
+#sb-nav-close {
+    background: url(../img/red-arrow-left.png) no-repeat center left;
+    position: absolute;
+    left: -2px;
+    top: 0;
+    width: 150px !important;
+    height: 20px !important;
+    padding-left: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 100
+}
+#sb-nav-next {
+    background: url(../img/nav-right.png) no-repeat center center;
+    position: absolute;
+    right: -140px;
+    top: -40px;
+    height: 150px !important;
+    width: 110px !important
+}
+#sb-nav-previous {
+    background: url(../img/nav-left.png) no-repeat center center;
+    position: absolute;
+    left: -140px;
+    top: -40px;
+    height: 150px !important;
+    width: 110px !important
+}
+#sb-nav-play {
+    background-image: url(../img/play.png)
+}
+#sb-nav-pause {
+    background-image: url(../img/pause.png)
+}
+#sb-counter {
+    width: 45%;
+    position: relative;
+    bottom: 26px;
+    left: 6px;
+    overflow: hidden;
+    height: 21px
+}
+#sb-counter a {
+    padding: 1px 5px 4px 5px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #383838;
+    background: #000;
+    position: relative;
+    top: 0
+}
+#sb-counter a:hover {
+    color: #fff
+}
+#sb-counter a.sb-counter-current {
+    color: #fff
+}
+div.sb-message {
+    font-size: 12px;
+    padding: 10px;
+    text-align: center
+}
+div.sb-message a:link,
+div.sb-message a:visited {
+    color: #fff;
+    text-decoration: underline
+}
+#custom-container {
+    border-bottom: 1px solid #737373;
+    min-height: 57px;
+    position: relative;
+    bottom: 10px
+}
+#custom-container #employer {
+    width: 125px;
+    float: left;
+    padding: 5px 10px
+}
+#custom-container #employer #agency {
+    text-transform: uppercase;
+    font-size: 14px
+}
+#custom-container #employer #city {
+    font-size: 12px
+}
+#custom-container #caption {
+    width: 440px;
+    float: left;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border-left: 1px solid #737373
+}
+#custom-container #category {
+    float: right;
+    border: 1px solid #737373;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 0 2px;
+    position: relative;
+    top: 8px
+}
